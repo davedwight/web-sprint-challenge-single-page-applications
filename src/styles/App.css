@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: #EC3944;
+}
+
+nav button {
+  padding: 20% 60%;
+  border: none;
+  border-radius: 5px;
+  background-color: wheat;
+  font-weight: bold;
+  font-size: 1.6rem;
+}

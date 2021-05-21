@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  /* border: 1px solid grey; */
+  /* max-width: 100%; */
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+#root {
+  font-size: 5.6rem;
+}

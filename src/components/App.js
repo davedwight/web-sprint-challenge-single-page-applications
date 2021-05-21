@@ -98,7 +98,15 @@ const App = () => {
       {/* End home page */}
 
       {/* Order form */}
-      <Route path='/pizza' component={Form} />
+      <Route path='/pizza' >
+        <Form 
+          values={formValues} 
+          change={inputChange} 
+          disabled={disabled} 
+          submit={formSubmit}
+          errors={formErrors}
+        />
+      </Route>
       {/* End order form */}
     
     </div>

@@ -1,0 +1,19 @@
+button {
+    padding: 10% 20%;
+    width: 150%;
+    border: none;
+    border-radius: 5px;
+    background-color: wheat;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+
+  #img-container {
+      height: 80vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url('../Assets/pizza-img.jpg') no-repeat center center fixed;
+      background-size: cover;
+  }

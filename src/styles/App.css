@@ -18,6 +18,7 @@ nav {
 
 nav button {
   padding: 20% 60%;
+  width: 220%;
   border: none;
   border-radius: 5px;
   background-color: wheat;

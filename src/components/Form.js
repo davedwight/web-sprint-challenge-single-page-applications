@@ -103,12 +103,12 @@ export default function Form(props) {
                     id='special-text'
                 />
             </label>
-
-            </form>
-            
+           
             <button disabled={disabled} id='order-button'>Add to Order</button>
             
             <div id='name-errors'>{errors.name}</div>
+            
+            </form>
 
         </div>
         
